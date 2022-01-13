@@ -5,8 +5,7 @@ import "fmt"
 func main() {
 
 	// Get the sum of two number
-	var s int
-	s = sum(4, 5)
+	var s int = sum(4, 5)
 	fmt.Println("Hello world", s)
 }
 
