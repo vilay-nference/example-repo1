@@ -3,5 +3,13 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Println("Hello world")
+
+	// Get the sum of two number
+	var s int
+	s = sum(4, 5)
+	fmt.Println("Hello world", s)
+}
+
+func sum(a, b int) int {
+	return a + b
 }
